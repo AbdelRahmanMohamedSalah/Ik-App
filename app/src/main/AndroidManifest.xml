@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.abdelrahman.ik_real_estate2">
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:name=".IKApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/main_logo"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Member.Activity.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Member.Activity.MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Admin.Activity.MainActivityAdmin"
+            android:label="@string/title_activity_main_admin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Member.Activity.LoginActivity" />
+        <activity android:name=".Member.Activity.RegistrationActivity" />
+        <activity android:name=".Member.Activity.MyDataActivity" />
+        <activity android:name=".Member.Activity.RequestsActivity" />
+        <activity android:name=".Member.Activity.PeriveousActivity" />
+        <activity android:name=".Member.Activity.RecyclePerivousMemberActivity" />
+        <activity android:name=".Member.Activity.ListItemActivity" />
+        <activity android:name=".Admin.Activity.ListWattingItemAdminActivity" />
+        <activity android:name=".Admin.Activity.ListChangeItemAdminActivity" />
+        <activity android:name=".Admin.Activity.PerivousAdminActivity" />
+        <activity android:name=".Admin.Activity.RequestsListAdminActivity" />
+        <activity android:name=".Admin.Activity.MyTeamAdminActivity" />
+        <activity android:name=".Admin.Activity.PerivousRecycleAdminActivity" />
+        <activity android:name=".Member.Activity.AddActivity" />
+        <activity android:name=".Member.Activity.ItemDetailsActivity" />
+        <activity android:name=".Member.Activity.AddRequestActivity" />
+        <activity android:name=".Member.Activity.RequestDetailsActivity" />
+        <activity android:name=".Member.Activity.EditDetailsRequestActivity" />
+        <activity android:name=".Member.Activity.PerivousDetailsActivity" />
+        <activity android:name=".Member.Activity.AddPreviousActivity" />
+        <activity android:name=".Member.Activity.RecyclerPerivewMemberActivity" />
+        <activity android:name=".Admin.Activity.RecyclePeriviousAdminActivity" />
+        <activity android:name=".Admin.Activity.ItemDetailsAdminActivity" />
+        <activity android:name=".Admin.Activity.ChangeItemDetailsAdminActivity" />
+        <activity android:name=".Admin.Activity.PeriviousAdminDetailsActivity" />
+        <activity android:name=".Member.Activity.AppartmentTypeActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".Admin.Activity.TreandingAdminActivity" />
+        <activity android:name=".Member.Activity.TrendingMemberActivity"></activity>
+    </application>
+
+</manifest>

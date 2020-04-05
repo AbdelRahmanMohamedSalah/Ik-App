@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+    android:paddingTop="-10dp"
+    android:paddingBottom="20dp"
+    android:paddingLeft="8dp"
+    android:layout_marginRight="8dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="6dp"
+            android:textColor="#c3e1dfdf"
+            android:fontFamily="@font/quantico"
+            android:gravity="center"
+            android:text="Add Trende"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/ETAddCodeTrendingActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:hint="Code Here..."
+            android:maxLength="5"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/BtnAddTrendingActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:background="@drawable/btn_style"
+            android:text="Add"
+            android:textColor="#fff" />
+
+        <ProgressBar
+            android:id="@+id/progressAddTrendingActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:visibility="gone" />
+    </LinearLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:paddingRight="6.0dip"
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize"
+        android:background="@color/colorPrimary"
+        android:weightSum="4.0">
+
+        <ImageView
+            android:id="@+id/ic_backListItemActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1.0"
+
+            android:src="@drawable/ic_arrow_back_black_24dp" />
+
+        <TextView
+            android:id="@+id/textTitleListItemActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="3.0"
+            android:gravity="center"
+            android:fontFamily="@font/quantico"
+            android:text="title "
+            android:textColor="#fff"
+            android:textSize="20.0sp" />
+
+        <ImageView
+            android:id="@+id/ic_filterListItemActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="9dp"
+            android:layout_weight="2"
+            android:src="@drawable/ic_filter_black_24dp" />
+
+        <SearchView
+            android:id="@+id/rearchListItemActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="2.0"
+
+            android:backgroundTint="#fff"
+            android:searchIcon="@drawable/ic_search_black_24dp" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@+id/textNoDataListItemActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="لا يوجد بيانات "
+            android:visibility="gone" />
+
+        <ProgressBar
+            android:id="@+id/progreeListItemActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="visible" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycleListItemActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".Admin.Activity.RecyclePeriviousAdminActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="?android:actionBarSize"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ic_backRecyclePerivousAdminActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1.0"
+            android:src="@drawable/ic_arrow_back_black_24dp" />
+
+        <TextView
+            android:fontFamily="@font/quantico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="4.0"
+            android:gravity="center"
+            android:text="Perivous Details"
+            android:textColor="#ffe6e6e6"
+            android:textSize="24.0sp" />
+
+        <ImageView
+            android:id="@+id/ic_refeuusedRecyclePeriviousAdminActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="10.0dip"
+            android:padding="8.0dip"
+            android:src="@drawable/ic_delete_black_24dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8.0dip"
+        android:layout_marginTop="10.0dip"
+        android:layout_marginRight="8.0dip"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textCodeRecyclePeriviousAdminActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:fontFamily="@font/regular"
+            android:gravity="center"
+            android:text="الكود" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.0"
+            android:fontFamily="@font/regular"
+            android:text="الكود" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:layout_marginTop="4.0dip"
+        android:background="#b8494949" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8.0dip"
+        android:layout_marginRight="8.0dip"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textclientNameRecyclePeriviousAdminActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:fontFamily="@font/regular"
+            android:gravity="center"
+            android:text="اسم" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.0"
+            android:fontFamily="@font/regular"
+            android:text="اسم العميل" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:layout_marginTop="4.0dip"
+        android:background="#b8494949" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8.0dip"
+        android:layout_marginRight="8.0dip"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textClientPhoneRecyclePeriviousAdminActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:fontFamily="@font/regular"
+            android:gravity="center"
+            android:text="تليفون" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.0"
+            android:fontFamily="@font/regular"
+            android:text="تليفون العميل" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:layout_marginTop="4.0dip"
+        android:background="#b8494949" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8.0dip"
+        android:layout_marginRight="8.0dip"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textDateRecyclePeriviousAdminActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:fontFamily="@font/regular"
+            android:gravity="center"
+            android:text="تاريخ" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.0"
+            android:fontFamily="@font/regular"
+            android:text="التاريخ" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:layout_marginTop="4.0dip"
+        android:background="#b8494949" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8.0dip"
+        android:layout_marginRight="8.0dip"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textTimeRecyclePeriviousAdminActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:fontFamily="@font/regular"
+            android:gravity="center"
+            android:text="الساعه" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.0"
+            android:fontFamily="@font/regular"
+            android:text="الساعه" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:layout_marginTop="4.0dip"
+        android:background="#b8494949" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8.0dip"
+        android:layout_marginRight="8.0dip"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textCommentRecyclePeriviousAdminActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:fontFamily="@font/regular"
+            android:gravity="center"
+            android:text="تعليق" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.0"
+            android:fontFamily="@font/regular"
+            android:text="التعليق" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:layout_marginTop="4.0dip"
+        android:background="#b8494949" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8.0dip"
+        android:layout_marginRight="8.0dip"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textMemberClientRecyclePeriviousAdminActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:fontFamily="@font/regular"
+            android:gravity="center"
+            android:text="اسم" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.0"
+            android:fontFamily="@font/regular"
+            android:text="عميل من " />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:layout_marginTop="4.0dip"
+        android:background="#b8494949" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8.0dip"
+        android:layout_marginRight="8.0dip"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textPeriviewMemberRecyclePeriviousAdminActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:fontFamily="@font/regular"
+            android:gravity="center"
+            android:text="اسم" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.0"
+            android:fontFamily="@font/regular"
+            android:text="معاينه من " />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8.0dip"
+        android:layout_marginRight="8.0dip"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textAfterPerviousRecyclePeriviousAdminActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:fontFamily="@font/regular"
+            android:gravity="center"
+            android:text="اسم" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.0"
+            android:fontFamily="@font/regular"
+            android:text="ما بعد المعاينه" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" />
+</LinearLayout>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/appartmentMainActivty"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            android:layout_marginBottom="10.0dip"
+            android:fontFamily="@font/regular"
+            android:gravity="center"
+            android:text="شقق"
+            android:textSize="22sp"
+            />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:background="#ff000000" />
+
+        <TextView
+            android:id="@+id/villaMainActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            android:layout_marginBottom="10.0dip"
+            android:fontFamily="@font/regular"
+            android:gravity="center"
+            android:text="فلل"
+            android:textSize="22.0sp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:background="#ff000000" />
+
+
+        <TextView
+            android:id="@+id/palaceMainActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            android:layout_marginBottom="10.0dip"
+            android:gravity="center"
+            android:text="قصور"
+            android:fontFamily="@font/regular"
+            android:textSize="22.0sp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:background="#ff000000" />
+
+        <TextView
+            android:id="@+id/landMainActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            android:layout_marginBottom="10.0dip"
+            android:gravity="center"
+            android:text="اراضي"
+            android:fontFamily="@font/regular"
+            android:textSize="22.0sp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:background="#ff000000" />
+
+        <TextView
+            android:id="@+id/shopMainActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            android:layout_marginBottom="10.0dip"
+            android:gravity="center"
+            android:text="محلات"
+            android:textSize="22.0sp"
+            android:fontFamily="@font/regular"/>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:background="#ff000000" />
+
+        <TextView
+            android:id="@+id/AmaratMainActivty"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            android:layout_marginBottom="10.0dip"
+            android:gravity="center"
+            android:text="عمارات"
+            android:textSize="22.0sp"
+            android:fontFamily="@font/regular"/>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:background="#ff000000" />
+
+        <TextView
+            android:id="@+id/RentsMainActivty"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            android:layout_marginBottom="10.0dip"
+            android:gravity="center"
+            android:text="ايجارات"
+            android:textSize="22.0sp"
+            android:fontFamily="@font/regular"/>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:background="#ff000000" />
+
+
+        <TextView
+            android:id="@+id/otherMainActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            android:layout_marginBottom="10.0dip"
+            android:gravity="center"
+            android:text="اخري"
+            android:textSize="22.0sp"
+            android:fontFamily="@font/regular"
+            />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:background="#ff000000" />
+
+        <TextView
+            android:id="@+id/OficesMainActivty"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            android:layout_marginBottom="10.0dip"
+            android:gravity="center"
+            android:text="شركات"
+            android:fontFamily="@font/regular"
+            android:textSize="22.0sp" />
+
+    </LinearLayout>
+</ScrollView>

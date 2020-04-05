@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".Admin.Activity.ItemDetailsAdminActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="?android:actionBarSize"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip">
+
+            <ImageView
+                android:id="@+id/ic_backItemDetailsAdminActivity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.0"
+                android:paddingTop="10.0dip"
+                android:paddingBottom="10.0dip"
+                android:src="@drawable/ic_arrow_back_black_24dp" />
+
+            <TextView
+                android:id="@+id/textCodeItemDetailsAdminActivity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4.0"
+                android:gravity="center"
+                android:paddingRight="30.0dip"
+                android:fontFamily="@font/coda"
+                android:text="L120"
+                android:textColor="#ffffffff"
+                android:textIsSelectable="true"
+                android:textSize="24.0sp" />
+
+            <ImageView
+                android:id="@+id/ic_shareItemDetailsAdminActivity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.0"
+                android:paddingTop="10.0dip"
+                android:paddingBottom="10.0dip"
+                android:src="@drawable/ic_share_black_24dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6.0dip"
+            android:layout_marginRight="6.0dip"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textTitleItemDetailsAdminActivity"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="22.0dip"
+                android:layout_marginBottom="22.0dip"
+                android:fontFamily="@font/bold"
+                android:gravity="center"
+                android:text="شقه بالحي الاول"
+                android:textIsSelectable="true" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0px"
+                android:background="#92000000" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6.0dip"
+                android:layout_marginBottom="6.0dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textPriceItemDetailsAdminActivity"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4.0dip"
+                    android:layout_marginRight="4.0dip"
+                    android:layout_weight="1.0"
+                    android:fontFamily="@font/regular"
+                    android:text="1,000,000 EGP"
+                    android:textIsSelectable="true" />
+
+                <TextView
+                    android:id="@+id/textLocationItemDetailsAdminActivity"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="4.0dip"
+                    android:layout_weight="1.0"
+                    android:drawableEnd="@drawable/ic_location_on_black_24dp"
+                    android:fontFamily="@font/regular"
+                    android:text="اكتوبر" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0px"
+                android:background="#92000000" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6.0dip"
+                android:layout_marginBottom="6.0dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textTypeItemDetailsAdminActivity"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:fontFamily="@font/regular"
+                    android:gravity="center"
+                    android:text="شقق "
+                    android:textIsSelectable="true" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_weight="1.0"
+                    android:fontFamily="@font/regular"
+                    android:text="النوع" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0px"
+                android:background="#92000000" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6.0dip"
+                android:layout_marginBottom="6.0dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textSpaceItemDetailsAdminActivity"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:fontFamily="@font/regular"
+                    android:gravity="center"
+                    android:text="140 m"
+                    android:textIsSelectable="true" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_weight="1.0"
+                    android:fontFamily="@font/regular"
+                    android:text="المساحه" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0px"
+                android:background="#92000000" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6.0dip"
+                android:layout_marginBottom="6.0dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textRoomItemDetailsAdminActivity"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:fontFamily="@font/regular"
+                    android:gravity="center"
+                    android:text="3"
+                    android:textIsSelectable="true" />
+
+                <TextView
+                    android:id="@+id/TextRoomsItemDetailsAdminActivity"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_weight="1.0"
+                    android:fontFamily="@font/regular"
+                    android:text="الغرف" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/View1ItemDetailsAdminActivity"
+                android:layout_width="fill_parent"
+                android:layout_height="1.0px"
+                android:background="#92000000" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6.0dip"
+                android:layout_marginBottom="6.0dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textBathroomItemDetailsAdminActivity"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:fontFamily="@font/regular"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textIsSelectable="true" />
+
+                <TextView
+                    android:id="@+id/TextBathRoomsItemDetailsAdminActivity"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_weight="1.0"
+                    android:fontFamily="@font/regular"
+                    android:text="الحمامات" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/View2ItemDetailsAdminActivity"
+                android:layout_width="fill_parent"
+                android:layout_height="1.0px"
+                android:background="#92000000" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6.0dip"
+                android:layout_marginBottom="6.0dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textOptionItemDetailsAdminActivity"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:fontFamily="@font/regular"
+                    android:gravity="center"
+                    android:text="سوبر لوكس" />
+
+                <TextView
+                    android:id="@+id/TextOptionsItemDetailsAdminActivity"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_weight="1.0"
+                    android:fontFamily="@font/regular"
+                    android:text="التشطيب" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/View3ItemDetailsAdminActivity"
+                android:layout_width="fill_parent"
+                android:layout_height="1.0px"
+                android:background="#92000000" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6.0dip"
+                android:layout_marginBottom="6.0dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textLevelItemDetailsAdminActivity"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:fontFamily="@font/regular"
+                    android:gravity="center"
+                    android:text="2" />
+
+                <TextView
+                    android:id="@+id/TextLevelItemDetailsAdminActivity"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_weight="1.0"
+                    android:fontFamily="@font/regular"
+                    android:text="الدور" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/View4ItemDetailsAdminActivity"
+                android:layout_width="fill_parent"
+                android:layout_height="1.0px"
+                android:background="#92000000" />
+
+            <TextView
+                android:id="@+id/textDetailsItemDetailsAdminActivity"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6.0dip"
+                android:layout_marginRight="4.0dip"
+                android:fontFamily="@font/regular"
+                android:text="بالحي الاول مكونه من 3 غرف و 2 حمام و بها حديقه خاصه مغلقه  الشقه تطل علي واجه اماميه  امام السسنترال لمباشره "
+                android:textIsSelectable="true" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0px"
+                android:background="#92000000" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6.0dip"
+                android:layout_marginBottom="6.0dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textOwnerNameItemDetailsAdminActivity"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:fontFamily="@font/regular"
+                    android:gravity="center"
+                    android:text="2"
+                    android:textIsSelectable="true" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_weight="1.0"
+                    android:fontFamily="@font/regular"
+                    android:text="اسم المالك" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0px"
+                android:background="#92000000" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6.0dip"
+                android:layout_marginBottom="6.0dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textOwnerPhoneItemDetailsAdminActivity"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:drawableStart="@drawable/ic_phone_black_24dp"
+                    android:fontFamily="@font/regular"
+                    android:gravity="center"
+                    android:paddingLeft="2.0dip"
+                    android:text="2"
+                    android:textIsSelectable="true" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_weight="1.0"
+                    android:fontFamily="@font/regular"
+                    android:text="رقم المالك" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0px"
+                android:background="#92000000" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6.0dip"
+                android:layout_marginBottom="6.0dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textMemberItemDetailsAdminActivity"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:fontFamily="@font/regular"
+                    android:gravity="center"
+                    android:text="2"
+                    android:textIsSelectable="true" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_weight="1.0"
+                    android:fontFamily="@font/regular"
+                    android:text="عميل من " />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0px"
+                android:background="#92000000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ic_refeuusedItem"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7.0dip"
+                android:layout_weight="1.0"
+                android:src="@drawable/ic_refused_black_24dp" />
+
+            <ImageView
+                android:id="@+id/ic_acceptItem"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7.0dip"
+                android:layout_weight="1.0"
+                android:src="@drawable/ic_accept_black_24dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textTimeItemDetailsAdminActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="14.0dip"
+            android:layout_marginBottom="10.0dip"
+            android:fontFamily="@font/regular"
+            android:gravity="left"
+            android:text="time" />
+    </LinearLayout>
+</ScrollView>

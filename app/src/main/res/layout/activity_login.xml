@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffffff"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="250.0dip"
+            android:layout_marginTop="10.0dip"
+            android:layout_marginBottom="30.0dip"
+            android:background="@drawable/main_logo" />
+
+        <EditText
+android:drawableStart="@drawable/ic_person_black_24dp"
+            android:id="@+id/ETemailLoginActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28dp"
+            android:layout_marginRight="28dp"
+            android:background="@drawable/et_style"
+            android:hint="Email" />
+
+        <EditText
+            android:drawableStart="@drawable/ic_lock_black_24dp"
+            android:id="@+id/ETpasswordLoginActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="28.0dip"
+            android:background="@drawable/et_style"
+            android:hint="Password"
+            />
+
+        <Button
+            android:id="@+id/BtnLoginActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="28dp"
+            android:background="@drawable/btn_style"
+            android:text="LogIn"
+            android:textAllCaps="false"
+            android:textColor="#ffffffff"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textSignUpLoginActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10.0dip"
+            android:layout_marginTop="6.0dip"
+            android:gravity="center"
+            android:text="creat new account"
+            android:textSize="17.0sp" />
+
+        <ProgressBar
+            android:id="@+id/progressLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10.0dip"
+            android:visibility="gone" />
+    </LinearLayout>
+</ScrollView>

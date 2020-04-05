@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/aclonica</item>
+        <item>@font/aldrich</item>
+        <item>@font/baumans</item>
+        <item>@font/coda</item>
+        <item>@font/quantico</item>
+        <item>@font/scada</item>
+        <item>@font/viga</item>
+    </array>
+</resources>

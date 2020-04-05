@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".Member.Activity.AddActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="?android:actionBarSize"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ic_backAddActivity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.0"
+                android:src="@drawable/ic_arrow_back_black_24dp" />
+
+            <TextView
+                android:id="@+id/textTitleAddActivity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:text="Add Item"
+                android:fontFamily="@font/quantico"
+                android:textColor="#ffe6e6e6"
+                android:textSize="22.0sp" />
+
+            <ImageView
+                android:id="@+id/ic_saveAddActivity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.0"
+                android:src="@drawable/ic_done_black_24dp" />
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progessBarAddActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10.0dip"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/ETCodeAddActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginLeft="28.0dip"
+            android:layout_marginTop="14.0dip"
+            android:layout_marginRight="28.0dip"
+            android:fontFamily="@font/bold"
+            android:gravity="right"
+            android:hint="كود"
+            android:maxLength="4"
+            android:paddingRight="6.0dip"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/ETtitleAddActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginLeft="28.0dip"
+            android:layout_marginTop="14.0dip"
+            android:layout_marginRight="28.0dip"
+            android:fontFamily="@font/bold"
+            android:gravity="right"
+            android:hint="العنوان"
+            android:paddingRight="6.0dip" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28.0dip"
+            android:layout_marginTop="10.0dip"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/spinnerTypeAddActivity"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8.0dip"
+                android:layout_marginRight="28.0dip"
+                android:fontFamily="@font/regular"
+                android:text="النوع" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28.0dip"
+            android:layout_marginTop="10.0dip"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/spinnerLevelAddActivity"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0" />
+
+            <TextView
+                android:id="@+id/textLevelAddActivity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8.0dip"
+                android:layout_marginRight="28.0dip"
+                android:fontFamily="@font/regular"
+                android:text="الدور" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28.0dip"
+            android:layout_marginTop="10.0dip"
+            android:layout_marginRight="28.0dip"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/spinnerBathroomAddActivity"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0" />
+
+            <TextView
+                android:id="@+id/textBathRoomAddActivity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/regular"
+                android:gravity="center"
+                android:text="الحمام" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28.0dip"
+            android:layout_marginTop="10.0dip"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/spinnerBedroomAddActivity"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0" />
+
+            <TextView
+                android:id="@+id/textRoomAddActivity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="2.0dip"
+                android:layout_marginRight="28.0dip"
+                android:fontFamily="@font/regular"
+                android:text="الغرف" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28.0dip"
+            android:layout_marginTop="10.0dip"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/spinnerOptionAddActivity"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0" />
+
+            <TextView
+                android:id="@+id/textOptionAddActivity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="-8.0dip"
+                android:layout_marginRight="28.0dip"
+                android:fontFamily="@font/regular"
+                android:text="تشطيب" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28.0dip"
+            android:layout_marginTop="10.0dip"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/spinnerLocationAddActivity"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="-8.0dip"
+                android:layout_marginRight="28.0dip"
+                android:fontFamily="@font/regular"
+                android:text="الموقع  " />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/ETspaceAddActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginLeft="28.0dip"
+            android:layout_marginTop="14.0dip"
+            android:layout_marginRight="28.0dip"
+            android:fontFamily="@font/regular"
+            android:gravity="right"
+            android:hint="المساحه"
+            android:inputType="number"
+            android:paddingRight="6.0dip" />
+
+        <EditText
+            android:id="@+id/ETpriceAddActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginLeft="28.0dip"
+            android:layout_marginTop="14.0dip"
+            android:layout_marginRight="28.0dip"
+            android:fontFamily="@font/regular"
+            android:gravity="right"
+            android:hint="السعر"
+            android:inputType="number"
+            android:paddingRight="6.0dip" />
+
+        <EditText
+            android:id="@+id/ETdetailsAddActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginLeft="28.0dip"
+            android:layout_marginTop="14.0dip"
+            android:layout_marginRight="28.0dip"
+            android:fontFamily="@font/regular"
+            android:gravity="right"
+            android:hint="التفاصيل"
+            android:paddingRight="6.0dip" />
+
+        <EditText
+            android:id="@+id/ETOwnerPhoneAddActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginLeft="28.0dip"
+            android:layout_marginTop="14.0dip"
+            android:layout_marginRight="28.0dip"
+            android:fontFamily="@font/regular"
+            android:gravity="right"
+            android:hint="رقم محمول المالك"
+            android:inputType="number"
+            android:paddingRight="6.0dip" />
+
+        <EditText
+            android:id="@+id/ETOwnerNameAddActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginLeft="28.0dip"
+            android:layout_marginTop="14.0dip"
+            android:layout_marginRight="28.0dip"
+            android:fontFamily="@font/regular"
+            android:gravity="right"
+            android:hint="اسم المالك"
+            android:inputType="text"
+            android:paddingRight="6.0dip" />
+    </LinearLayout>
+</ScrollView>

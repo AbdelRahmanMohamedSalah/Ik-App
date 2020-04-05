@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".Admin.Activity.PeriviousAdminDetailsActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="?android:actionBarSize"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ic_backPerivousAdminDetailsActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1.0"
+            android:src="@drawable/ic_arrow_back_black_24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="6.0"
+            android:gravity="center"
+            android:fontFamily="@font/quantico"
+            android:text="Perivous Details"
+            android:textColor="#ffe6e6e6"
+            android:textSize="24.0sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8.0dip"
+        android:layout_marginTop="10.0dip"
+        android:layout_marginRight="8.0dip"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textCodePeriviousAdminDetailsActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:fontFamily="@font/regular"
+            android:gravity="center"
+            android:text="الكود" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.0"
+            android:fontFamily="@font/regular"
+            android:text="الكود" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:layout_marginTop="4.0dip"
+        android:background="#b8494949" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8.0dip"
+        android:layout_marginRight="8.0dip"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textclientNamePeriviousAdminDetailsActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:fontFamily="@font/regular"
+            android:gravity="center"
+            android:text="اسم" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.0"
+            android:fontFamily="@font/regular"
+            android:text="اسم العميل" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:layout_marginTop="4.0dip"
+        android:background="#b8494949" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8.0dip"
+        android:layout_marginRight="8.0dip"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textClientPhonePeriviousAdminDetailsActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:fontFamily="@font/regular"
+            android:gravity="center"
+            android:text="تليفون" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.0"
+            android:fontFamily="@font/regular"
+            android:text="تليفون العميل" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:layout_marginTop="4.0dip"
+        android:background="#b8494949" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8.0dip"
+        android:layout_marginRight="8.0dip"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textDatePeriviousAdminDetailsActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:fontFamily="@font/regular"
+            android:gravity="center"
+            android:text="تاريخ" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.0"
+            android:fontFamily="@font/regular"
+            android:text="التاريخ" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:layout_marginTop="4.0dip"
+        android:background="#b8494949" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8.0dip"
+        android:layout_marginRight="8.0dip"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textTimePeriviousAdminDetailsActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:fontFamily="@font/regular"
+            android:gravity="center"
+            android:text="الساعه" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.0"
+            android:fontFamily="@font/regular"
+            android:text="الساعه" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:layout_marginTop="4.0dip"
+        android:background="#b8494949" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8.0dip"
+        android:layout_marginRight="8.0dip"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textCommentPeriviousAdminDetailsActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:fontFamily="@font/regular"
+            android:gravity="center"
+            android:text="تعليق" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.0"
+            android:fontFamily="@font/regular"
+            android:text="التعليق" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:layout_marginTop="4.0dip"
+        android:background="#b8494949" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8.0dip"
+        android:layout_marginRight="8.0dip"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textMemberClientPeriviousAdminDetailsActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:fontFamily="@font/regular"
+            android:gravity="center"
+            android:text="اسم" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.0"
+            android:fontFamily="@font/regular"
+            android:text="عميل من " />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:layout_marginTop="4.0dip"
+        android:background="#b8494949" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8.0dip"
+        android:layout_marginRight="8.0dip"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textMemberPeriviewPeriviousAdminDetailsActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:fontFamily="@font/regular"
+            android:gravity="center"
+            android:text="اسم"
+            android:visibility="gone" />
+
+        <Spinner
+            android:id="@+id/spinnerMemberPerviewPeriviousAdminDetailsActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:textAlignment="center"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.0"
+            android:fontFamily="@font/regular"
+            android:text="معاينه من " />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ic_refeuusedPeriviousAdminDetailsActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7.0dip"
+            android:layout_weight="1.0"
+            android:src="@drawable/ic_refused_black_24dp" />
+
+        <ImageView
+            android:id="@+id/ic_acceptPeriviousAdminDetailsActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7.0dip"
+            android:layout_weight="1.0"
+            android:src="@drawable/ic_accept_black_24dp" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressbarPerivousAdminDetailsActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+</LinearLayout>

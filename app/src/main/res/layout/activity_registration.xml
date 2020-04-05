@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffffff"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="200.0dip"
+            android:layout_marginBottom="10.0dip"
+            android:background="@drawable/main_logo" />
+
+        <EditText
+            android:id="@+id/ETnameRegistrationActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28.0dip"
+            android:layout_marginRight="28.0dip"
+            android:background="@drawable/et_style"
+            android:drawableStart="@drawable/ic_person_black_24dp"
+            android:hint="Name" />
+
+        <EditText
+            android:id="@+id/ETLastnameRegistrationActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28.0dip"
+            android:layout_marginTop="10.0dip"
+            android:layout_marginRight="28.0dip"
+            android:background="@drawable/et_style"
+            android:drawableStart="@drawable/ic_supervisor_account_black_24dp"
+            android:hint=" Last Name" />
+
+        <EditText
+            android:id="@+id/ETphoneRegistrationActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28.0dip"
+            android:layout_marginTop="10.0dip"
+            android:layout_marginRight="28.0dip"
+            android:background="@drawable/et_style"
+            android:drawableStart="@drawable/ic_phone_black_24dp"
+            android:hint="Phone"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/ETemailRegistrationActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28.0dip"
+            android:layout_marginTop="10.0dip"
+            android:layout_marginRight="28.0dip"
+            android:background="@drawable/et_style"
+            android:drawableStart="@drawable/ic_mail_black_24dp"
+            android:hint="Email" />
+
+        <EditText
+            android:id="@+id/ETpasswordRegistrationActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28.0dip"
+            android:layout_marginTop="10.0dip"
+            android:layout_marginRight="28.0dip"
+            android:background="@drawable/et_style"
+            android:drawableStart="@drawable/ic_lock_black_24dp"
+            android:hint="Password" />
+
+        <EditText
+            android:id="@+id/ETRepasswordRegistrationActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28.0dip"
+            android:layout_marginTop="10.0dip"
+            android:layout_marginRight="28.0dip"
+            android:background="@drawable/et_style"
+            android:drawableStart="@drawable/ic_lock_black_24dp"
+            android:hint="RePassword" />
+
+        <Button
+            android:id="@+id/BtnRegistrationActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28.0dip"
+            android:layout_marginTop="10.0dip"
+            android:layout_marginRight="28.0dip"
+            android:background="@drawable/btn_style"
+            android:text="Registration"
+            android:textColor="#ffffffff" />
+
+        <ProgressBar
+            android:id="@+id/progressRegistration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5.0dip"
+            android:visibility="gone" />
+    </LinearLayout>
+</ScrollView>

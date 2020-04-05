@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginTop="8.0dip"
+        android:layout_marginRight="4.0dip"
+        android:layout_marginBottom="6.0dip"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4.0dip"
+            android:layout_marginBottom="8.0dip"
+            android:layout_weight="1.6"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/TextSpaceListItemAdmin"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:fontFamily="@font/regular"
+                android:gravity="left"
+                android:text="120م" />
+
+            <TextView
+                android:id="@+id/TextPriceItemListAdmin"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:fontFamily="@font/regular"
+                android:gravity="left"
+                android:inputType="numberSigned|numberDecimal"
+                android:text="66000000 EGP" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5.0dip"
+            android:layout_weight="1.0"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/TextTitleItemListAdmin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_weight="1.0"
+                android:fontFamily="@font/bold"
+                android:text="شقه بالحي الرابع " />
+
+            <TextView
+                android:id="@+id/textLocationListItemActivityAdmin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|right|center"
+                android:layout_marginTop="20.0dip"
+                android:layout_weight="1.0"
+                android:drawableEnd="@drawable/ic_location_on_black_24dp"
+                android:fontFamily="@font/regular"
+                android:text="الفردوس" />
+
+            <TextView
+                android:id="@+id/textpersonListItemActivityAdmin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|right|center"
+                android:layout_marginTop="6.0dip"
+                android:layout_weight="1.0"
+                android:drawableEnd="@drawable/ic_person_black_24dp"
+                android:fontFamily="@font/regular"
+                android:text="محمود" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:background="#ff000000" />
+</LinearLayout>

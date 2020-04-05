@@ -1,0 +1,195 @@
+{
+  "project_info": {
+    "project_number": "710849126116",
+    "firebase_url": "https://ikrealstate-d6019.firebaseio.com",
+    "project_id": "ikrealstate-d6019",
+    "storage_bucket": "ikrealstate-d6019.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:710849126116:android:8155f33dc248265f",
+        "android_client_info": {
+          "package_name": "com.example.abdelrahman.ik_real_estate2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "710849126116-tb9oo2je9povboap565bp6tt0vhkdki8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.abdelrahman.ik_real_estate2",
+            "certificate_hash": "edecf091ed61718ba0b1fd879068b4775b17af71"
+          }
+        },
+        {
+          "client_id": "710849126116-aerm52bvbs2ubrees367off9qobdlagm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDum2wFI6VfYQIUW220x9tuSHJlTlldRRM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "710849126116-aerm52bvbs2ubrees367off9qobdlagm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:710849126116:android:c2fda89ed531f99c",
+        "android_client_info": {
+          "package_name": "com.example.abdelrahman.ik_real_state"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "710849126116-p9q78vrulcuddq4j5iuquktehmk1e621.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.abdelrahman.ik_real_state",
+            "certificate_hash": "32f08cad6c0e5d342d53c2de8f1f2f183b066fa6"
+          }
+        },
+        {
+          "client_id": "710849126116-uj3fn2tu6tr25mevu2dv792rplbr15tf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.abdelrahman.ik_real_state",
+            "certificate_hash": "edecf091ed61718ba0b1fd879068b4775b17af71"
+          }
+        },
+        {
+          "client_id": "710849126116-aerm52bvbs2ubrees367off9qobdlagm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDum2wFI6VfYQIUW220x9tuSHJlTlldRRM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "710849126116-aerm52bvbs2ubrees367off9qobdlagm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:710849126116:android:d21349b4af183994",
+        "android_client_info": {
+          "package_name": "com.example.abdelrahman.ikrealestate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "710849126116-0mkofl9gqh1a1958ov4k5mvoha8gk9ko.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.abdelrahman.ikrealestate",
+            "certificate_hash": "edecf091ed61718ba0b1fd879068b4775b17af71"
+          }
+        },
+        {
+          "client_id": "710849126116-aerm52bvbs2ubrees367off9qobdlagm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDum2wFI6VfYQIUW220x9tuSHJlTlldRRM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "710849126116-aerm52bvbs2ubrees367off9qobdlagm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:710849126116:android:60e59dc8b28ec1b6",
+        "android_client_info": {
+          "package_name": "com.example.abdelrahman.ikrealstate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "710849126116-bsma0f2vrrp1gptjmalilavimugk5d4s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.abdelrahman.ikrealstate",
+            "certificate_hash": "edecf091ed61718ba0b1fd879068b4775b17af71"
+          }
+        },
+        {
+          "client_id": "710849126116-aerm52bvbs2ubrees367off9qobdlagm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDum2wFI6VfYQIUW220x9tuSHJlTlldRRM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "710849126116-aerm52bvbs2ubrees367off9qobdlagm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

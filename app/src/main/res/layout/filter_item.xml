@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="6dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingBottom="8dp"
+        android:text="Search by?"
+        android:fontFamily="quantico"
+        android:textColor="#c3e1dfdf"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupFilterListItemActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioBtnIdFilterItemListItemActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="1"
+            android:text="ID"
+            android:textSize="18sp" />
+
+
+        <RadioButton
+            android:id="@+id/radioBtnTitleFilterItemListItemActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="Title"
+            android:textSize="18sp" />
+
+        <!--<RadioButton-->
+        <!--android:id="@+id/radioBtnPriceFilterItemListItemActivity"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginRight="8dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:text="Price"-->
+        <!--android:textSize="18sp" />-->
+    </RadioGroup>
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/layoutPricrFilterListItemActivity"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_margin="10dp"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:visibility="visible">-->
+    <!---->
+    <!--<EditText-->
+    <!--android:id="@+id/ETPriceFromListItemActivity"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="1"-->
+    <!--android:hint="From $"-->
+    <!--android:inputType="number"-->
+    <!---->
+    <!--/>-->
+    <!---->
+    <!--<EditText-->
+    <!--android:id="@+id/ETPriceToListItemActivity"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="1"-->
+    <!--android:hint="to $"-->
+    <!--android:inputType="number"-->
+    <!---->
+    <!--/>-->
+    <!---->
+    <!--</LinearLayout>-->
+
+    <Button
+        android:id="@+id/btnFilterItemListItemActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:background="@drawable/btn_style"
+        android:text="ok"
+        android:textColor="#eae8e8" />
+
+</LinearLayout>

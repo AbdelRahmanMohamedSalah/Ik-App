@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="ما الذي تم بالمعاينه ؟"
+        android:textSize="24.0dip"
+        android:fontFamily="@font/bold"/>
+
+    <EditText
+        android:id="@+id/EtLayoutFeedBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="اكتب هنا ..."
+        android:fontFamily="@font/regular"/>
+
+    <Button
+        android:id="@+id/BtnSaveLayoutFeedBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/btn_style"
+        android:text="save"
+        android:textColor="#fff" />
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="10dp"
+        android:visibility="gone"
+        android:paddingBottom="10dp"
+        android:id="@+id/ProgressBarLayoutFeedBack"/>
+</LinearLayout>

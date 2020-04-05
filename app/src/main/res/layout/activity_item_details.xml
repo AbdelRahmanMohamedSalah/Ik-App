@@ -1,0 +1,297 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    tools:context=".Member.Activity.ItemDetailsActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="?android:actionBarSize"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip">
+
+            <ImageView
+                android:id="@+id/ic_backItemDetailsActivity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.0"
+                android:paddingTop="10.0dip"
+                android:paddingBottom="10.0dip"
+                android:src="@drawable/ic_arrow_back_black_24dp" />
+
+            <TextView
+                android:id="@+id/textCodeItemDetailsActivity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4.0"
+                android:gravity="center"
+                android:paddingRight="30.0dip"
+                android:fontFamily="@font/coda"
+                android:text="L120"
+                android:textColor="#ffffffff"
+                android:textSize="24.0sp"
+                android:textIsSelectable="true"/>
+
+            <ImageView
+                android:id="@+id/ic_shareItemDetailsActivity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1.0"
+                android:paddingTop="10.0dip"
+                android:paddingBottom="10.0dip"
+                android:src="@drawable/ic_share_black_24dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6.0dip"
+            android:layout_marginRight="6.0dip"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textTitleItemDetailsActivity"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="22.0dip"
+                android:layout_marginBottom="22.0dip"
+                android:fontFamily="@font/bold"
+                android:gravity="center"
+                android:text="شقه بالحي الاول" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0px"
+                android:background="#92000000" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6.0dip"
+                android:layout_marginBottom="6.0dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textPriceItemDetailsActivity"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4.0dip"
+                    android:layout_marginRight="4.0dip"
+                    android:layout_weight="1.0"
+                    android:fontFamily="@font/regular"
+                    android:text="1,000,000 EGP" />
+
+                <TextView
+                    android:id="@+id/textLocationItemDetailsActivity"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="4.0dip"
+                    android:layout_weight="1.0"
+                    android:drawableEnd="@drawable/ic_location_on_black_24dp"
+                    android:fontFamily="@font/regular"
+                    android:text="اكتوبر" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0px"
+                android:background="#92000000" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6.0dip"
+                android:layout_marginBottom="6.0dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textSpaceItemDetailsActivity"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:fontFamily="@font/regular"
+                    android:gravity="center"
+                    android:text="140 m"
+                    android:textIsSelectable="true" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_weight="1.0"
+                    android:fontFamily="@font/regular"
+                    android:text="المساحه" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0px"
+                android:background="#92000000" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6.0dip"
+                android:layout_marginBottom="6.0dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textRoomItemDetailsActivity"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:fontFamily="@font/regular"
+                    android:gravity="center"
+                    android:text="3"
+                    android:textIsSelectable="true" />
+
+                <TextView
+                    android:id="@+id/TextRoomsItemDetailsActivity"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_weight="1.0"
+                    android:fontFamily="@font/regular"
+                    android:text="الغرف" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/View1ItemDetailsActivity"
+                android:layout_width="fill_parent"
+                android:layout_height="1.0px"
+                android:background="#92000000" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6.0dip"
+                android:layout_marginBottom="6.0dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textBathroomItemDetailsActivity"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:fontFamily="@font/regular"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textIsSelectable="true" />
+
+                <TextView
+                    android:id="@+id/TextBathRoomsItemDetailsActivity"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_weight="1.0"
+                    android:fontFamily="@font/regular"
+                    android:text="الحمامات" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/View2ItemDetailsActivity"
+                android:layout_width="fill_parent"
+                android:layout_height="1.0px"
+                android:background="#92000000" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6.0dip"
+                android:layout_marginBottom="6.0dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textOptionItemDetailsActivity"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:fontFamily="@font/regular"
+                    android:gravity="center"
+                    android:text="سوبر لوكس"
+                    android:textIsSelectable="true" />
+
+                <TextView
+                    android:id="@+id/TextOptionsItemDetailsActivity"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_weight="1.0"
+                    android:fontFamily="@font/regular"
+                    android:text="التشطيب" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/View3ItemDetailsActivity"
+                android:layout_width="fill_parent"
+                android:layout_height="1.0px"
+                android:background="#92000000" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6.0dip"
+                android:layout_marginBottom="6.0dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textLevelItemDetailsActivity"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:fontFamily="@font/regular"
+                    android:gravity="center"
+                    android:text="2"
+                    android:textIsSelectable="true" />
+
+                <TextView
+                    android:id="@+id/TextLevelItemDetailsActivity"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_weight="1.0"
+                    android:fontFamily="@font/regular"
+                    android:text="الدور" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/View4ItemDetailsActivity"
+                android:layout_width="fill_parent"
+                android:layout_height="1.0px"
+                android:background="#92000000" />
+
+            <TextView
+                android:id="@+id/textDetailsItemDetailsActivity"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6.0dip"
+                android:layout_marginRight="4.0dip"
+                android:fontFamily="@font/regular"
+                android:text="بالحي الاول مكونه من 3 غرف و 2 حمام و بها حديقه خاصه مغلقه  الشقه تطل علي واجه اماميه  امام السسنترال لمباشره "
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/textTimeItemDetailsActivity"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="14.0dip"
+                android:layout_marginBottom="10.0dip"
+                android:fontFamily="@font/regular"
+                android:gravity="left"
+                android:text="time" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

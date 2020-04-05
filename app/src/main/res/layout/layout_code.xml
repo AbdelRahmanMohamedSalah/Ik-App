@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="7dp"
+        android:orientation="vertical"
+        android:padding="6dp">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bold"
+            android:gravity="center"
+            android:paddingTop="10.0dip"
+            android:text=" ادخل كود للعقار  "
+            android:textSize="24.0sp" />
+
+        <EditText
+            android:id="@+id/ETCodeItemDetailsAdminActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+            android:fontFamily="@font/regular"
+            android:hint="الكود"
+            android:inputType="none" />
+
+        <Button
+            android:id="@+id/BtnCodeItemDetailsAdminActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="6dp"
+            android:background="@drawable/btn_style"
+            android:gravity="center"
+            android:text="save"
+
+            android:textColor="#fff" />
+
+        <ProgressBar
+            android:id="@+id/progressLayoutCodeItemDetailsAdminActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp" />
+    </LinearLayout>
+</LinearLayout>
